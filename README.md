@@ -11,4 +11,4 @@ pkg> add  https://github.com/raghavchhetri/ImarisWriter.jl![image](https://user-
 3. zlib.dll
 3. lz4.dll
 
-DLLs need to be in the .julia directory here: \.julia\packages\ImarisWriter\3DMeS\
+DLLs need to be in the .julia directory here: \\.julia\packages\ImarisWriter\3DMeS\
