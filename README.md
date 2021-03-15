@@ -4,7 +4,8 @@ Julia bindings for ImarisWriter
 
 ## Install
 pkg> add  https://github.com/raghavchhetri/ImarisWriter.jl
-***DLLS required***
+
+**DLLS required**
 1. bpImarisWriter96.dll
 2. hdf5.dll
 3. zlib.dll
