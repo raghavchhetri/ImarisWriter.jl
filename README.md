@@ -12,3 +12,5 @@ pkg> add  https://github.com/raghavchhetri/ImarisWriter.jl![image](https://user-
 3. lz4.dll
 
 DLLs need to be in the .julia directory here: \\.julia\packages\ImarisWriter\3DMeS\
+
+Note: DLLs generated using Visual Studio 2019 in Windows 10 can be found here: https://github.com/raghavchhetri/ImarisWriter.jl/tree/main/dependencies
