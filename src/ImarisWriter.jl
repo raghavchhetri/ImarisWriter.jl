@@ -16,10 +16,11 @@ include("imariswriter_common.jl")
 include("imariswriter_api.jl")
 
 const bpImarisWriter96_path = joinpath( @__DIR__(), "..", "bpImarisWriter96.dll")
+const bpImarisWriter96 = :bpImarisWriter96
 
 function __init__()
-    global bpImarisWriter96
-    bpImarisWriter96 =  dlopen( bpImarisWriter96_path )
+    global bpImarisWriter96_h
+    bpImarisWriter96_h =  dlopen( bpImarisWriter96_path )
 end
 
 end
